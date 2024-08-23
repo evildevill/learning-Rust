@@ -2,10 +2,10 @@
 A collection of my Rust learning journey, from basics to advanced concepts.
 
 ## Table of Contents
-- [Chapter 1 - Hello World](#basics)
+- [Chapter 1 - Hello World](#chapter-1---hello-world)
 - [Chapter 2 - Guessing Game](#what-i-learned-in-chapter-2-guessing-game)
 
-## Basics - [Hello, World!](https://github.com/evildevill/learning-Rust/tree/main/hello_world)
+## Chapter 1 - [Hello, World!](https://github.com/evildevill/learning-Rust/tree/main/hello_world)
 
 ### Writing a "Hello World" Program in Rust
 
