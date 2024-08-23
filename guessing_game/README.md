@@ -28,7 +28,8 @@ Every Rust program starts execution from a function called `main`. It’s the en
   }
   ```
   - `fn` is the keyword used to declare a function.
-  - `main()` is the name of the function.
+  - `main` is the name of the function.
+  - The parentheses, `()`, indicate there are no parameters.
   - The curly braces `{}` define the body of the function, where the code that runs is placed.
   - `println!` is a macro that prints text to the console. The `!` indicates that it’s a macro, not a regular function.
 
