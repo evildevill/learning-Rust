@@ -44,6 +44,14 @@ Variables in Rust are immutable by default, meaning once you assign a value, it 
   - `mut` allows the variable `guess` to be modified.
   - `String::new()` creates a new, empty string. This string will store the user’s input.
 
+In Rust, the `::` syntax is called the **path separator** or **namespace separator**. It's used to navigate through different modules, types, or functions within the Rust code. When you use `::new`, you are accessing the `new` function in the context of a specific type or module.
+
+For example:
+- `std::io::Read` refers to the `Read` trait in the `std::io` module.
+- `String::new()` calls the `new` associated function on the `String` type.
+
+So, you can refer to the `::` as the **path separator** or **namespace separator** in this context.
+
 ### 4. Reading User Input
 
 To get input from the user, I used the `std::io` module, which provides input and output functionalities. The `stdin` function reads input from the console.
