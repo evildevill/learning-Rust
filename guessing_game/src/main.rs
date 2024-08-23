@@ -10,7 +10,7 @@ fn main() {
     loop {
         println!("Please input your guess.");
 
-        let mut guess = String::new();
+        let mut guess = String::new(); // mut means mutable variable, String::new() creates a new empty string
 
         io::stdin()
             .read_line(&mut guess)
